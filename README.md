@@ -20,8 +20,8 @@ Please do code as you were already a part of our frontend team, it is essential 
 
 Regardless of point 1 and 2, the page should be responsive.
 
-1. Implement the styling using what you like to use (chakra-ui, material-ui or something else)
-2. Implement the styling yourself, using the library of your choice (we are using styled-components and pandaCSS for instance)
+1. Implement the styling using the ui library that you like to use.
+2. Implement the styling yourself, using the library (css, css in js etc) of your choice.
 
 :warning: We are not asking for a pixel perfect copy of the figma, we just wanted to gave you a direction on where to go, it does not have to be the exact same thing really, surprise us :warning:
 
@@ -32,6 +32,7 @@ The current user will be representated by 3 different mock (`USER_WITH_ONE_SUBSC
 What you need to look at is the `subscriptions` key, it represent the subscriptions that the user currently have active.
 
 :warning: The app should be working with all these 3 types of profile in mind. :warning:
+:warning: You don't have to implement a complex system to handle that, a single select box or just a constant will do the job. :warning:
 
 ## Implement a list of newsletters, grouped by site.
 
@@ -51,10 +52,12 @@ Everything has to be typed with typescript, show us what you can do !
 
 # Time
 
-Take around 4 hours to do this test, we really respect your time and don't want you to spend days on this.
+Take 4 hours maximum to do this test, we really respect your time and don't want you to spend days on this.
+If you can't finish the test under 4 hours, don't worry, you can provide us a TODO file and explain to us what you would have done if you had more time, your technical choices etc.
 
 # Final word
 
 Good luck and again, please do this as you were already an developer in our team.
+The coding style is important to us.
 
 If you have any question feel free to contact us and we will quickly respond
