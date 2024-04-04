@@ -1,17 +1,14 @@
-import { Inter } from "next/font/google";
+import { ReactNode } from 'react'
+import { Inter } from '@App/localFonts'
 
-import "./globals.css";
+import './globals.css'
 
-const inter = Inter({ subsets: ["latin"] });
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={Inter.variable}>
+      <body className="m-0 bg-gradient-to-br from-stone-50 via-gray-100 to-gray-200">
+        {children}
+      </body>
     </html>
-  );
+  )
 }
